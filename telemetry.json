@@ -1,0 +1,162 @@
+[
+  {
+    "event_id": "EVT-001",
+    "satellite_id": "GOES-17",
+    "subsystem": "POWER",
+    "metric": "bus_voltage",
+    "value": 27.4,
+    "unit": "V",
+    "status": "OK",
+    "severity": "Low",
+    "confidence": 0.99,
+    "timestamp": "2025-10-18T11:45:00Z",
+    "raw": {
+      "sensor": "PWR01",
+      "read_source": "telemetry_batch_3421"
+    }
+  },
+  {
+    "event_id": "EVT-002",
+    "satellite_id": "GOES-17",
+    "subsystem": "THERMAL",
+    "metric": "payload_temp",
+    "value": 46.2,
+    "unit": "°C",
+    "status": "WARNING",
+    "severity": "Medium",
+    "confidence": 0.94,
+    "timestamp": "2025-10-18T11:47:00Z",
+    "raw": {
+      "sensor": "TMP23",
+      "read_source": "telemetry_batch_3421"
+    }
+  },
+  {
+    "event_id": "EVT-003",
+    "satellite_id": "GOES-18",
+    "subsystem": "COMMS",
+    "metric": "signal_strength",
+    "value": -87.1,
+    "unit": "dBm",
+    "status": "ERROR",
+    "severity": "High",
+    "confidence": 0.88,
+    "timestamp": "2025-10-18T11:50:00Z",
+    "raw": {
+      "antenna": "X-Band",
+      "read_source": "telemetry_batch_3421"
+    }
+  },
+  {
+    "event_id": "EVT-004",
+    "satellite_id": "GOES-16",
+    "subsystem": "THERMAL",
+    "metric": "battery_temp",
+    "value": 22.1,
+    "unit": "°C",
+    "status": "OK",
+    "severity": "Low",
+    "confidence": 0.97,
+    "timestamp": "2025-10-18T11:55:00Z",
+    "raw": {
+      "sensor": "TMP07",
+      "read_source": "telemetry_batch_3421"
+    }
+  },
+  {
+    "event_id": "EVT-005",
+    "satellite_id": "GOES-17",
+    "subsystem": "POWER",
+    "metric": "battery_current",
+    "value": 3.7,
+    "unit": "A",
+    "status": "OK",
+    "severity": "Low",
+    "confidence": 0.95,
+    "timestamp": "2025-10-18T12:00:00Z",
+    "raw": {
+      "sensor": "CUR11",
+      "read_source": "telemetry_batch_3422"
+    }
+  },
+  {
+    "event_id": "EVT-006",
+    "satellite_id": "GOES-18",
+    "subsystem": "POWER",
+    "metric": "solar_input_voltage",
+    "value": 35.6,
+    "unit": "V",
+    "status": "WARNING",
+    "severity": "Medium",
+    "confidence": 0.91,
+    "timestamp": "2025-10-18T12:05:00Z",
+    "raw": {
+      "panel": "Array-B",
+      "read_source": "telemetry_batch_3422"
+    }
+  },
+  {
+    "event_id": "EVT-007",
+    "satellite_id": "GOES-17",
+    "subsystem": "THERMAL",
+    "metric": "coolant_pressure",
+    "value": 2.8,
+    "unit": "bar",
+    "status": "ERROR",
+    "severity": "High",
+    "confidence": 0.83,
+    "timestamp": "2025-10-18T12:07:00Z",
+    "raw": {
+      "pump": "Loop-A",
+      "read_source": "telemetry_batch_3422"
+    }
+  },
+  {
+    "event_id": "EVT-008",
+    "satellite_id": "GOES-16",
+    "subsystem": "COMMS",
+    "metric": "uplink_latency",
+    "value": 230,
+    "unit": "ms",
+    "status": "OK",
+    "severity": "Low",
+    "confidence": 0.96,
+    "timestamp": "2025-10-18T12:10:00Z",
+    "raw": {
+      "channel": "Ka-Band",
+      "read_source": "telemetry_batch_3423"
+    }
+  },
+  {
+    "event_id": "EVT-009",
+    "satellite_id": "GOES-18",
+    "subsystem": "POWER",
+    "metric": "bus_current",
+    "value": 15.2,
+    "unit": "A",
+    "status": "OK",
+    "severity": "Low",
+    "confidence": 0.98,
+    "timestamp": "2025-10-18T12:15:00Z",
+    "raw": {
+      "sensor": "CUR08",
+      "read_source": "telemetry_batch_3423"
+    }
+  },
+  {
+    "event_id": "EVT-010",
+    "satellite_id": "GOES-17",
+    "subsystem": "THERMAL",
+    "metric": "radiator_temp",
+    "value": 63.5,
+    "unit": "°C",
+    "status": "ERROR",
+    "severity": "High",
+    "confidence": 0.89,
+    "timestamp": "2025-10-18T12:20:00Z",
+    "raw": {
+      "sensor": "TMP30",
+      "read_source": "telemetry_batch_3423"
+    }
+  }
+]
