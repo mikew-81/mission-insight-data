@@ -1,53 +1,82 @@
 [
   {
-    "event_id": "EVT-005",
+    "event_id": "EVT-200",
     "satellite_id": "GOES-17",
-    "subsystem": "THERMAL",
-    "metric": "panel_temp",
-    "value": 48.9,
-    "unit": "°C",
-    "status": "OK",
-    "severity": "Low",
+    "subsystem": "POWER",
+    "metric": "bus_voltage",
+    "value": 18.4,
+    "unit": "V",
+    "status": "CRITICAL",
+    "severity": "High",
     "confidence": 0.96,
-    "timestamp": "2025-10-19T15:01:00Z",
+    "timestamp": "2025-10-19T13:05:00Z",
     "raw": {
-      "sensor": "TMP45",
-      "read_source": "telemetry_update_3502",
-      "note": "Cooling system successfully reduced panel temperature."
+      "sensor": "PWR09",
+      "read_source": "telemetry_batch_9001"
     }
   },
   {
-    "event_id": "EVT-012",
-    "satellite_id": "GOES-18",
-    "subsystem": "COMMS",
-    "metric": "signal_strength",
-    "value": -82.9,
-    "unit": "dBm",
-    "status": "OK",
-    "severity": "Low",
-    "confidence": 0.94,
-    "timestamp": "2025-10-19T15:05:00Z",
-    "raw": {
-      "sensor": "COM12",
-      "read_source": "telemetry_update_3502",
-      "note": "Link stabilization routine executed successfully."
-    }
-  },
-  {
-    "event_id": "EVT-019",
+    "event_id": "EVT-201",
     "satellite_id": "GOES-17",
     "subsystem": "THERMAL",
     "metric": "payload_temp",
-    "value": 58.2,
+    "value": 79.3,
     "unit": "°C",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.93,
-    "timestamp": "2025-10-19T15:08:00Z",
+    "status": "CRITICAL",
+    "severity": "High",
+    "confidence": 0.94,
+    "timestamp": "2025-10-19T13:07:00Z",
     "raw": {
-      "sensor": "TMP99",
-      "read_source": "telemetry_update_3502",
-      "note": "Cooling module partially recovered; temperature trending down."
+      "sensor": "TMP12",
+      "read_source": "telemetry_batch_9001"
+    }
+  },
+  {
+    "event_id": "EVT-202",
+    "satellite_id": "GOES-17",
+    "subsystem": "COMMS",
+    "metric": "signal_strength",
+    "value": -110.2,
+    "unit": "dBm",
+    "status": "CRITICAL",
+    "severity": "High",
+    "confidence": 0.91,
+    "timestamp": "2025-10-19T13:09:00Z",
+    "raw": {
+      "sensor": "COM05",
+      "read_source": "telemetry_batch_9001"
+    }
+  },
+  {
+    "event_id": "EVT-203",
+    "satellite_id": "GOES-17",
+    "subsystem": "NAVIGATION",
+    "metric": "position_accuracy",
+    "value": 34.2,
+    "unit": "m",
+    "status": "CRITICAL",
+    "severity": "High",
+    "confidence": 0.93,
+    "timestamp": "2025-10-19T13:12:00Z",
+    "raw": {
+      "sensor": "NAV02",
+      "read_source": "telemetry_batch_9001"
+    }
+  },
+  {
+    "event_id": "EVT-204",
+    "satellite_id": "GOES-17",
+    "subsystem": "POWER",
+    "metric": "battery_current",
+    "value": 12.6,
+    "unit": "A",
+    "status": "CRITICAL",
+    "severity": "High",
+    "confidence": 0.97,
+    "timestamp": "2025-10-19T13:15:00Z",
+    "raw": {
+      "sensor": "BAT07",
+      "read_source": "telemetry_batch_9001"
     }
   }
 ]
