@@ -1,53 +1,53 @@
 [
   {
-    "event_id": "EVT-011",
+    "event_id": "EVT-005",
     "satellite_id": "GOES-17",
     "subsystem": "THERMAL",
-    "metric": "payload_temp",
-    "value": 57.3,
+    "metric": "panel_temp",
+    "value": 48.9,
     "unit": "°C",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.95,
-    "timestamp": "2025-10-19T14:12:00Z",
-    "raw": {
-      "sensor": "TMP58",
-      "read_source": "telemetry_update_3501",
-      "note": "Temperature stabilized after automatic cooling adjustment"
-    }
-  },
-  {
-    "event_id": "EVT-020",
-    "satellite_id": "GOES-18",
-    "subsystem": "COMMS",
-    "metric": "uplink_latency",
-    "value": 310,
-    "unit": "ms",
     "status": "OK",
     "severity": "Low",
-    "confidence": 0.93,
-    "timestamp": "2025-10-19T14:15:00Z",
+    "confidence": 0.96,
+    "timestamp": "2025-10-19T15:01:00Z",
     "raw": {
-      "sensor": "COM33",
-      "read_source": "telemetry_update_3501",
-      "note": "Latency normalized following ground link realignment"
+      "sensor": "TMP45",
+      "read_source": "telemetry_update_3502",
+      "note": "Cooling system successfully reduced panel temperature."
     }
   },
   {
-    "event_id": "EVT-033",
-    "satellite_id": "GOES-19",
-    "subsystem": "THERMAL",
-    "metric": "payload_temp",
-    "value": 59.9,
-    "unit": "°C",
+    "event_id": "EVT-012",
+    "satellite_id": "GOES-18",
+    "subsystem": "COMMS",
+    "metric": "signal_strength",
+    "value": -82.9,
+    "unit": "dBm",
     "status": "OK",
     "severity": "Low",
     "confidence": 0.94,
-    "timestamp": "2025-10-19T14:18:00Z",
+    "timestamp": "2025-10-19T15:05:00Z",
     "raw": {
-      "sensor": "TMP104",
-      "read_source": "telemetry_update_3501",
-      "note": "Thermal system recovered from previous high-temp event"
+      "sensor": "COM12",
+      "read_source": "telemetry_update_3502",
+      "note": "Link stabilization routine executed successfully."
+    }
+  },
+  {
+    "event_id": "EVT-019",
+    "satellite_id": "GOES-17",
+    "subsystem": "THERMAL",
+    "metric": "payload_temp",
+    "value": 58.2,
+    "unit": "°C",
+    "status": "WARNING",
+    "severity": "Medium",
+    "confidence": 0.93,
+    "timestamp": "2025-10-19T15:08:00Z",
+    "raw": {
+      "sensor": "TMP99",
+      "read_source": "telemetry_update_3502",
+      "note": "Cooling module partially recovered; temperature trending down."
     }
   }
 ]
