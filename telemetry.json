@@ -1,733 +1,82 @@
 [
   {
-    "event_id": "EVT-301",
-    "satellite_id": "GOES-17",
-    "subsystem": "COMMS",
-    "metric": "latency_variance",
-    "value": 91,
-    "unit": "ms",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.93,
-    "timestamp": "2025-10-19T18:12:22+00:00",
-    "raw": {
-      "sensor": "COM48",
-      "read_source": "telemetry_batch_3998",
-      "trace_id": "bdcd03663272"
-    }
-  },
-  {
-    "event_id": "EVT-302",
-    "satellite_id": "GOES-18",
-    "subsystem": "PAYLOAD",
-    "metric": "imager_current",
-    "value": 1.3,
-    "unit": "A",
-    "status": "OK",
-    "severity": "Low",
-    "confidence": 0.92,
-    "timestamp": "2025-10-19T12:41:22+00:00",
-    "raw": {
-      "sensor": "PAY71",
-      "read_source": "telemetry_batch_4344",
-      "trace_id": "3eb365a7a9c9"
-    }
-  },
-  {
-    "event_id": "EVT-303",
+    "event_id": "EVT-251",
     "satellite_id": "GOES-17",
     "subsystem": "THERMAL",
-    "metric": "payload_temp",
-    "value": 50.0,
-    "unit": "\u00b0C",
+    "metric": "coolant_pressure",
+    "value": 1.85,
+    "unit": "bar",
     "status": "WARNING",
     "severity": "Medium",
-    "confidence": 0.97,
-    "timestamp": "2025-10-20T06:43:22+00:00",
+    "confidence": 0.95,
+    "timestamp": "2025-10-20T13:15:00Z",
     "raw": {
-      "sensor": "THE21",
-      "read_source": "telemetry_batch_4424",
-      "trace_id": "24a034a219e8"
+      "sensor": "THR04",
+      "read_source": "telemetry_batch_4580"
     }
   },
   {
-    "event_id": "EVT-304",
-    "satellite_id": "GOES-17",
-    "subsystem": "NAVIGATION",
-    "metric": "gyro_bias",
-    "value": 0.59,
-    "unit": "\u00b0/s",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.89,
-    "timestamp": "2025-10-20T03:47:22+00:00",
-    "raw": {
-      "sensor": "NAV49",
-      "read_source": "telemetry_batch_3965",
-      "trace_id": "fb75380e07b6"
-    }
-  },
-  {
-    "event_id": "EVT-305",
-    "satellite_id": "GOES-17",
+    "event_id": "EVT-252",
+    "satellite_id": "GOES-19",
     "subsystem": "POWER",
     "metric": "bus_voltage",
-    "value": 29.37,
+    "value": 23.4,
     "unit": "V",
-    "status": "OK",
-    "severity": "Low",
-    "confidence": 0.99,
-    "timestamp": "2025-10-20T07:22:22+00:00",
-    "raw": {
-      "sensor": "POW67",
-      "read_source": "telemetry_batch_4005",
-      "trace_id": "2284fd5fffd1"
-    }
-  },
-  {
-    "event_id": "EVT-306",
-    "satellite_id": "GOES-19",
-    "subsystem": "THERMAL",
-    "metric": "payload_temp",
-    "value": 68.8,
-    "unit": "\u00b0C",
     "status": "CRITICAL",
     "severity": "High",
-    "confidence": 0.92,
-    "timestamp": "2025-10-19T11:54:22+00:00",
+    "confidence": 0.91,
+    "timestamp": "2025-10-20T13:20:00Z",
     "raw": {
-      "sensor": "THE93",
-      "read_source": "telemetry_batch_4239",
-      "trace_id": "d86e543ce15e"
+      "sensor": "PWR09",
+      "read_source": "telemetry_batch_4581"
     }
   },
   {
-    "event_id": "EVT-307",
-    "satellite_id": "GOES-19",
-    "subsystem": "NAVIGATION",
-    "metric": "position_accuracy",
-    "value": 2.2,
-    "unit": "m",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.92,
-    "timestamp": "2025-10-19T23:05:22+00:00",
-    "raw": {
-      "sensor": "NAV07",
-      "read_source": "telemetry_batch_4174",
-      "trace_id": "3545635c97f2"
-    }
-  },
-  {
-    "event_id": "EVT-308",
-    "satellite_id": "GOES-17",
-    "subsystem": "PAYLOAD",
-    "metric": "imager_current",
-    "value": 2.0,
-    "unit": "A",
-    "status": "OK",
-    "severity": "Low",
-    "confidence": 0.98,
-    "timestamp": "2025-10-20T06:07:22+00:00",
-    "raw": {
-      "sensor": "PAY39",
-      "read_source": "telemetry_batch_4406",
-      "trace_id": "72a5cf165986"
-    }
-  },
-  {
-    "event_id": "EVT-309",
-    "satellite_id": "GOES-19",
+    "event_id": "EVT-253",
+    "satellite_id": "GOES-18",
     "subsystem": "COMMS",
-    "metric": "latency_variance",
-    "value": 52,
-    "unit": "ms",
+    "metric": "signal_strength",
+    "value": -93.8,
+    "unit": "dBm",
     "status": "WARNING",
     "severity": "Medium",
-    "confidence": 0.92,
-    "timestamp": "2025-10-19T17:51:22+00:00",
+    "confidence": 0.88,
+    "timestamp": "2025-10-20T13:22:00Z",
     "raw": {
-      "sensor": "COM54",
-      "read_source": "telemetry_batch_3985",
-      "trace_id": "c0c31f3c8366"
+      "sensor": "COM11",
+      "read_source": "telemetry_batch_4582"
     }
   },
   {
-    "event_id": "EVT-310",
-    "satellite_id": "GOES-19",
-    "subsystem": "THERMAL",
-    "metric": "coolant_pressure",
-    "value": 1.53,
-    "unit": "bar",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.96,
-    "timestamp": "2025-10-19T14:24:22+00:00",
-    "raw": {
-      "sensor": "THE40",
-      "read_source": "telemetry_batch_4011",
-      "trace_id": "d6c3913a6a9c"
-    }
-  },
-  {
-    "event_id": "EVT-311",
-    "satellite_id": "GOES-18",
-    "subsystem": "NAVIGATION",
-    "metric": "gyro_bias",
-    "value": 0.02,
-    "unit": "\u00b0/s",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.99,
-    "timestamp": "2025-10-20T05:45:22+00:00",
-    "raw": {
-      "sensor": "NAV17",
-      "read_source": "telemetry_batch_3917",
-      "trace_id": "2670474edf01"
-    }
-  },
-  {
-    "event_id": "EVT-312",
-    "satellite_id": "GOES-18",
-    "subsystem": "THERMAL",
-    "metric": "coolant_pressure",
-    "value": 1.33,
-    "unit": "bar",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.97,
-    "timestamp": "2025-10-19T10:00:22+00:00",
-    "raw": {
-      "sensor": "THE59",
-      "read_source": "telemetry_batch_4248",
-      "trace_id": "1e433daeac9a"
-    }
-  },
-  {
-    "event_id": "EVT-313",
-    "satellite_id": "GOES-18",
-    "subsystem": "THERMAL",
-    "metric": "coolant_pressure",
-    "value": 0.83,
-    "unit": "bar",
-    "status": "CRITICAL",
-    "severity": "High",
-    "confidence": 0.96,
-    "timestamp": "2025-10-19T11:03:22+00:00",
-    "raw": {
-      "sensor": "THE52",
-      "read_source": "telemetry_batch_4098",
-      "trace_id": "d8111ab5def0"
-    }
-  },
-  {
-    "event_id": "EVT-314",
+    "event_id": "EVT-254",
     "satellite_id": "GOES-19",
     "subsystem": "NAVIGATION",
     "metric": "drift_rate",
-    "value": 0.05,
-    "unit": "\u00b0/hr",
+    "value": 0.09,
+    "unit": "°/hr",
     "status": "WARNING",
     "severity": "Medium",
-    "confidence": 0.92,
-    "timestamp": "2025-10-19T20:02:22+00:00",
-    "raw": {
-      "sensor": "NAV42",
-      "read_source": "telemetry_batch_4307",
-      "trace_id": "7e3fc8223f5c"
-    }
-  },
-  {
-    "event_id": "EVT-315",
-    "satellite_id": "GOES-17",
-    "subsystem": "PAYLOAD",
-    "metric": "imager_current",
-    "value": 1.7,
-    "unit": "A",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.99,
-    "timestamp": "2025-10-20T08:15:22+00:00",
-    "raw": {
-      "sensor": "PAY86",
-      "read_source": "telemetry_batch_4139",
-      "trace_id": "dcac8ee24b2d"
-    }
-  },
-  {
-    "event_id": "EVT-316",
-    "satellite_id": "GOES-17",
-    "subsystem": "COMMS",
-    "metric": "signal_strength",
-    "value": -78.94,
-    "unit": "dBm",
-    "status": "OK",
-    "severity": "Low",
     "confidence": 0.93,
-    "timestamp": "2025-10-19T20:43:22+00:00",
+    "timestamp": "2025-10-20T13:25:00Z",
     "raw": {
-      "sensor": "COM29",
-      "read_source": "telemetry_batch_3962",
-      "trace_id": "13d0d5fa36f3"
+      "sensor": "NAV05",
+      "read_source": "telemetry_batch_4583"
     }
   },
   {
-    "event_id": "EVT-317",
-    "satellite_id": "GOES-17",
-    "subsystem": "THERMAL",
-    "metric": "payload_temp",
-    "value": 35.9,
-    "unit": "\u00b0C",
-    "status": "OK",
-    "severity": "Low",
-    "confidence": 0.98,
-    "timestamp": "2025-10-19T16:33:22+00:00",
-    "raw": {
-      "sensor": "THE65",
-      "read_source": "telemetry_batch_4417",
-      "trace_id": "f91a51a5cf89"
-    }
-  },
-  {
-    "event_id": "EVT-318",
-    "satellite_id": "GOES-19",
-    "subsystem": "COMMS",
-    "metric": "uplink_latency",
-    "value": 269,
-    "unit": "ms",
-    "status": "OK",
-    "severity": "Low",
-    "confidence": 0.88,
-    "timestamp": "2025-10-19T20:39:22+00:00",
-    "raw": {
-      "sensor": "COM20",
-      "read_source": "telemetry_batch_4155",
-      "trace_id": "8b9ec30c7fe0"
-    }
-  },
-  {
-    "event_id": "EVT-319",
-    "satellite_id": "GOES-19",
-    "subsystem": "POWER",
-    "metric": "bus_voltage",
-    "value": 27.46,
-    "unit": "V",
-    "status": "OK",
-    "severity": "Low",
-    "confidence": 0.88,
-    "timestamp": "2025-10-19T21:08:22+00:00",
-    "raw": {
-      "sensor": "POW55",
-      "read_source": "telemetry_batch_4008",
-      "trace_id": "980a2ea1b6dd"
-    }
-  },
-  {
-    "event_id": "EVT-320",
+    "event_id": "EVT-255",
     "satellite_id": "GOES-18",
-    "subsystem": "THERMAL",
-    "metric": "radiator_temp",
-    "value": 17.5,
-    "unit": "\u00b0C",
-    "status": "OK",
-    "severity": "Low",
-    "confidence": 0.96,
-    "timestamp": "2025-10-19T15:32:22+00:00",
-    "raw": {
-      "sensor": "THE74",
-      "read_source": "telemetry_batch_4055",
-      "trace_id": "2d3e16193fca"
-    }
-  },
-  {
-    "event_id": "EVT-321",
-    "satellite_id": "GOES-17",
-    "subsystem": "POWER",
-    "metric": "bus_voltage",
-    "value": 24.14,
-    "unit": "V",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.97,
-    "timestamp": "2025-10-19T17:39:22+00:00",
-    "raw": {
-      "sensor": "POW90",
-      "read_source": "telemetry_batch_4179",
-      "trace_id": "5c2cfaf9498b"
-    }
-  },
-  {
-    "event_id": "EVT-322",
-    "satellite_id": "GOES-17",
-    "subsystem": "NAVIGATION",
-    "metric": "gyro_bias",
-    "value": 0.2,
-    "unit": "\u00b0/s",
-    "status": "OK",
-    "severity": "Low",
-    "confidence": 0.93,
-    "timestamp": "2025-10-20T09:39:22+00:00",
-    "raw": {
-      "sensor": "NAV94",
-      "read_source": "telemetry_batch_4112",
-      "trace_id": "45265a7dd8bb"
-    }
-  },
-  {
-    "event_id": "EVT-323",
-    "satellite_id": "GOES-19",
-    "subsystem": "POWER",
-    "metric": "bus_current",
-    "value": 4.8,
-    "unit": "A",
-    "status": "OK",
-    "severity": "Low",
-    "confidence": 0.98,
-    "timestamp": "2025-10-19T17:35:22+00:00",
-    "raw": {
-      "sensor": "POW57",
-      "read_source": "telemetry_batch_4215",
-      "trace_id": "9eac6744e788"
-    }
-  },
-  {
-    "event_id": "EVT-324",
-    "satellite_id": "GOES-19",
     "subsystem": "PAYLOAD",
     "metric": "spectrometer_temp",
-    "value": 48.0,
-    "unit": "\u00b0C",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.94,
-    "timestamp": "2025-10-19T13:10:22+00:00",
-    "raw": {
-      "sensor": "PAY55",
-      "read_source": "telemetry_batch_4344",
-      "trace_id": "700a5702c8a8"
-    }
-  },
-  {
-    "event_id": "EVT-325",
-    "satellite_id": "GOES-19",
-    "subsystem": "THERMAL",
-    "metric": "payload_temp",
-    "value": 59.6,
-    "unit": "\u00b0C",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.95,
-    "timestamp": "2025-10-19T10:07:22+00:00",
-    "raw": {
-      "sensor": "THE82",
-      "read_source": "telemetry_batch_4057",
-      "trace_id": "291185d1d83b"
-    }
-  },
-  {
-    "event_id": "EVT-326",
-    "satellite_id": "GOES-17",
-    "subsystem": "THERMAL",
-    "metric": "coolant_pressure",
-    "value": 1.5,
-    "unit": "bar",
-    "status": "OK",
-    "severity": "Low",
-    "confidence": 0.99,
-    "timestamp": "2025-10-19T11:43:22+00:00",
-    "raw": {
-      "sensor": "THE30",
-      "read_source": "telemetry_batch_4092",
-      "trace_id": "c695c4441336"
-    }
-  },
-  {
-    "event_id": "EVT-327",
-    "satellite_id": "GOES-19",
-    "subsystem": "PAYLOAD",
-    "metric": "imager_current",
-    "value": 1.0,
-    "unit": "A",
-    "status": "OK",
-    "severity": "Low",
-    "confidence": 0.89,
-    "timestamp": "2025-10-19T18:13:22+00:00",
-    "raw": {
-      "sensor": "PAY54",
-      "read_source": "telemetry_batch_4204",
-      "trace_id": "a1f0bcf7f6a4"
-    }
-  },
-  {
-    "event_id": "EVT-328",
-    "satellite_id": "GOES-18",
-    "subsystem": "NAVIGATION",
-    "metric": "gyro_bias",
-    "value": 0.16,
-    "unit": "\u00b0/s",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.92,
-    "timestamp": "2025-10-19T23:01:22+00:00",
-    "raw": {
-      "sensor": "NAV46",
-      "read_source": "telemetry_batch_4240",
-      "trace_id": "1c0719b08779"
-    }
-  },
-  {
-    "event_id": "EVT-329",
-    "satellite_id": "GOES-18",
-    "subsystem": "NAVIGATION",
-    "metric": "drift_rate",
-    "value": 0.03,
-    "unit": "\u00b0/hr",
-    "status": "OK",
-    "severity": "Low",
-    "confidence": 0.92,
-    "timestamp": "2025-10-20T01:55:22+00:00",
-    "raw": {
-      "sensor": "NAV60",
-      "read_source": "telemetry_batch_4086",
-      "trace_id": "e0af7e5f7920"
-    }
-  },
-  {
-    "event_id": "EVT-330",
-    "satellite_id": "GOES-18",
-    "subsystem": "POWER",
-    "metric": "battery_current",
-    "value": -1.3,
-    "unit": "A",
-    "status": "OK",
-    "severity": "Low",
-    "confidence": 0.97,
-    "timestamp": "2025-10-20T03:48:22+00:00",
-    "raw": {
-      "sensor": "POW39",
-      "read_source": "telemetry_batch_4033",
-      "trace_id": "416234f531ee"
-    }
-  },
-  {
-    "event_id": "EVT-331",
-    "satellite_id": "GOES-17",
-    "subsystem": "POWER",
-    "metric": "bus_voltage",
-    "value": 28.31,
-    "unit": "V",
-    "status": "OK",
-    "severity": "Low",
-    "confidence": 0.91,
-    "timestamp": "2025-10-19T16:40:22+00:00",
-    "raw": {
-      "sensor": "POW92",
-      "read_source": "telemetry_batch_4094",
-      "trace_id": "1b8439c7f3b9"
-    }
-  },
-  {
-    "event_id": "EVT-332",
-    "satellite_id": "GOES-18",
-    "subsystem": "NAVIGATION",
-    "metric": "gyro_bias",
-    "value": 0.11,
-    "unit": "\u00b0/s",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.92,
-    "timestamp": "2025-10-20T06:22:22+00:00",
-    "raw": {
-      "sensor": "NAV96",
-      "read_source": "telemetry_batch_4427",
-      "trace_id": "d6b4fd7b539f"
-    }
-  },
-  {
-    "event_id": "EVT-333",
-    "satellite_id": "GOES-17",
-    "subsystem": "NAVIGATION",
-    "metric": "drift_rate",
-    "value": 0.05,
-    "unit": "\u00b0/hr",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.94,
-    "timestamp": "2025-10-20T01:18:22+00:00",
-    "raw": {
-      "sensor": "NAV13",
-      "read_source": "telemetry_batch_4057",
-      "trace_id": "0dcbfa4ad6d7"
-    }
-  },
-  {
-    "event_id": "EVT-334",
-    "satellite_id": "GOES-19",
-    "subsystem": "NAVIGATION",
-    "metric": "position_accuracy",
-    "value": 5.8,
-    "unit": "m",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.94,
-    "timestamp": "2025-10-19T19:00:22+00:00",
-    "raw": {
-      "sensor": "NAV81",
-      "read_source": "telemetry_batch_4370",
-      "trace_id": "ddbb3049268d"
-    }
-  },
-  {
-    "event_id": "EVT-335",
-    "satellite_id": "GOES-19",
-    "subsystem": "THERMAL",
-    "metric": "payload_temp",
-    "value": 62.0,
-    "unit": "\u00b0C",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.91,
-    "timestamp": "2025-10-19T17:23:22+00:00",
-    "raw": {
-      "sensor": "THE62",
-      "read_source": "telemetry_batch_3978",
-      "trace_id": "03add517dd94"
-    }
-  },
-  {
-    "event_id": "EVT-336",
-    "satellite_id": "GOES-19",
-    "subsystem": "POWER",
-    "metric": "bus_current",
-    "value": 5.7,
-    "unit": "A",
-    "status": "OK",
-    "severity": "Low",
-    "confidence": 0.9,
-    "timestamp": "2025-10-19T15:26:22+00:00",
-    "raw": {
-      "sensor": "POW55",
-      "read_source": "telemetry_batch_4390",
-      "trace_id": "aa2cae8ebd15"
-    }
-  },
-  {
-    "event_id": "EVT-337",
-    "satellite_id": "GOES-17",
-    "subsystem": "COMMS",
-    "metric": "signal_strength",
-    "value": -106.71,
-    "unit": "dBm",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.97,
-    "timestamp": "2025-10-20T08:32:22+00:00",
-    "raw": {
-      "sensor": "COM12",
-      "read_source": "telemetry_batch_4469",
-      "trace_id": "746af9168bc9"
-    }
-  },
-  {
-    "event_id": "EVT-338",
-    "satellite_id": "GOES-17",
-    "subsystem": "THERMAL",
-    "metric": "coolant_pressure",
-    "value": 1.16,
-    "unit": "bar",
-    "status": "OK",
-    "severity": "Low",
-    "confidence": 0.89,
-    "timestamp": "2025-10-20T05:48:22+00:00",
-    "raw": {
-      "sensor": "THE54",
-      "read_source": "telemetry_batch_4375",
-      "trace_id": "d40eecc14282"
-    }
-  },
-  {
-    "event_id": "EVT-339",
-    "satellite_id": "GOES-19",
-    "subsystem": "THERMAL",
-    "metric": "payload_temp",
-    "value": 70.8,
-    "unit": "\u00b0C",
+    "value": 52.6,
+    "unit": "°C",
     "status": "CRITICAL",
     "severity": "High",
-    "confidence": 0.88,
-    "timestamp": "2025-10-19T13:02:22+00:00",
+    "confidence": 0.97,
+    "timestamp": "2025-10-20T13:30:00Z",
     "raw": {
-      "sensor": "THE28",
-      "read_source": "telemetry_batch_4150",
-      "trace_id": "d74bf74c740c"
-    }
-  },
-  {
-    "event_id": "EVT-340",
-    "satellite_id": "GOES-18",
-    "subsystem": "THERMAL",
-    "metric": "payload_temp",
-    "value": 39.0,
-    "unit": "\u00b0C",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.91,
-    "timestamp": "2025-10-19T12:58:22+00:00",
-    "raw": {
-      "sensor": "THE65",
-      "read_source": "telemetry_batch_4129",
-      "trace_id": "ec567759a259"
-    }
-  },
-  {
-    "event_id": "EVT-341",
-    "satellite_id": "GOES-18",
-    "subsystem": "PAYLOAD",
-    "metric": "imager_current",
-    "value": 1.7,
-    "unit": "A",
-    "status": "OK",
-    "severity": "Low",
-    "confidence": 0.93,
-    "timestamp": "2025-10-19T23:02:22+00:00",
-    "raw": {
-      "sensor": "PAY63",
-      "read_source": "telemetry_batch_4487",
-      "trace_id": "5540c80f60a6"
-    }
-  },
-  {
-    "event_id": "EVT-342",
-    "satellite_id": "GOES-19",
-    "subsystem": "NAVIGATION",
-    "metric": "gyro_bias",
-    "value": 0.2,
-    "unit": "\u00b0/s",
-    "status": "OK",
-    "severity": "Low",
-    "confidence": 0.95,
-    "timestamp": "2025-10-20T03:02:22+00:00",
-    "raw": {
-      "sensor": "NAV57",
-      "read_source": "telemetry_batch_4347",
-      "trace_id": "83f8346b7e37"
-    }
-  },
-  {
-    "event_id": "EVT-343",
-    "satellite_id": "GOES-18",
-    "subsystem": "THERMAL",
-    "metric": "coolant_pressure",
-    "value": 1.61,
-    "unit": "bar",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.98,
-    "timestamp": "2025-10-20T04:43:22+00:00",
-    "raw": {
-      "sensor": "THE57",
-      "read_source": "telemetry_batch_3933",
-      "trace_id": "3bad0c6bfb04"
+      "sensor": "PLD07",
+      "read_source": "telemetry_batch_4584"
     }
   }
 ]
