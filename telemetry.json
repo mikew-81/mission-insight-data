@@ -1,18 +1,67 @@
 [
   {
-    "event_id": "EVT-319",
+    "event_id": "EVT-401",
     "satellite_id": "GOES-19",
     "subsystem": "THERMAL",
     "metric": "radiator_temp",
-    "value": 92.4,
+    "value": 52.3,
     "unit": "°C",
     "status": "CRITICAL",
     "severity": "High",
+    "confidence": 0.98,
+    "timestamp": "2025-10-24T17:02:00Z",
+    "raw": { "sensor": "THR07", "read_source": "telemetry_batch_5321" }
+  },
+  {
+    "event_id": "EVT-402",
+    "satellite_id": "GOES-19",
+    "subsystem": "POWER",
+    "metric": "bus_voltage",
+    "value": 23.6,
+    "unit": "V",
+    "status": "CRITICAL",
+    "severity": "High",
     "confidence": 0.97,
-    "timestamp": "2025-10-22T14:30:00Z",
-    "raw": {
-      "sensor": "THR12",
-      "read_source": "telemetry_batch_5192"
-    }
+    "timestamp": "2025-10-24T17:03:00Z",
+    "raw": { "sensor": "PWR01", "read_source": "telemetry_batch_5321" }
+  },
+  {
+    "event_id": "EVT-403",
+    "satellite_id": "GOES-19",
+    "subsystem": "COMMS",
+    "metric": "signal_strength",
+    "value": -103.8,
+    "unit": "dBm",
+    "status": "CRITICAL",
+    "severity": "High",
+    "confidence": 0.95,
+    "timestamp": "2025-10-24T17:04:00Z",
+    "raw": { "sensor": "COM02", "read_source": "telemetry_batch_5321" }
+  },
+  {
+    "event_id": "EVT-404",
+    "satellite_id": "GOES-19",
+    "subsystem": "NAVIGATION",
+    "metric": "drift_rate",
+    "value": 0.112,
+    "unit": "°/hr",
+    "status": "CRITICAL",
+    "severity": "High",
+    "confidence": 0.96,
+    "timestamp": "2025-10-24T17:05:00Z",
+    "raw": { "sensor": "NAV04", "read_source": "telemetry_batch_5321" }
+  },
+  {
+    "event_id": "EVT-405",
+    "satellite_id": "GOES-19",
+    "subsystem": "PAYLOAD",
+    "metric": "spectrometer_temp",
+    "value": 53.1,
+    "unit": "°C",
+    "status": "CRITICAL",
+    "severity": "High",
+    "confidence": 0.99,
+    "timestamp": "2025-10-24T17:06:00Z",
+    "raw": { "sensor": "PLD09", "read_source": "telemetry_batch_5321" }
   }
 ]
