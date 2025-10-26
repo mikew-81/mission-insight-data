@@ -1,21 +1,5 @@
 [
   {
-    "event_id": "EVT-801",
-    "satellite_id": "GOES-17",
-    "subsystem": "POWER",
-    "metric": "bus_voltage",
-    "value": 23.5,
-    "unit": "V",
-    "status": "CRITICAL",
-    "severity": "High",
-    "confidence": 0.98,
-    "timestamp": "2025-10-24T20:00:00Z",
-    "raw": { "sensor": "PWR01", "read_source": "telemetry_batch_6301" },
-    "change_recommended": true,
-    "change_reason": "Bus voltage dropped below 24.0 V — recommend power distribution reconfiguration.",
-    "escalate_to": "Space Mission - Power Optimize"
-  },
-  {
     "event_id": "EVT-802",
     "satellite_id": "GOES-18",
     "subsystem": "THERMAL",
