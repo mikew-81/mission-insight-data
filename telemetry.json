@@ -29,7 +29,7 @@
     "raw": { "sensor": "THR05", "read_source": "telemetry_batch_6302" } , "change_recommended": true, "change_reason": "Payload temperature exceeded 65 °C for more than 10 minutes — recommend cooling system configuration change.",
     "escalate_to": "Space Mission - Thermal Control"
   },
-  {
+{
   "event_id": "EVT-904",
   "satellite_id": "GOES-19",
   "subsystem": "THERMAL",
@@ -40,14 +40,9 @@
   "severity": "High",
   "confidence": 0.94,
   "timestamp": "2025-10-26T19:42:00Z",
-  "raw": { "sensor": "THR02", "read_source": "telemetry_batch_7345",
-    "eclipse_phase": "Ingress"
-  },
+  "raw": { "sensor": "THR02", "read_source": "telemetry_batch_7345" },
   "change_recommended": false,
-  "change_reason": "Thermal subsystem temperature exceeded 58°C during eclipse transition — policy OPS-THR-042 §4.2 requires manual review before automated action.",
-  "escalate_to": "Thermal Systems Engineering - Manual Review Required",
-  "service_request_recommended": true,
-  "service_request_reason": "Thermal breach within eclipse transition window — create SR for Thermal Review per OPS-THR-042 §4.2.",
- }
+  "change_reason": "Thermal subsystem temperature exceeded 58°C during eclipse transition — manual review required per OPS-THR-042 §4.2.",
+  "escalate_to": "Thermal Systems Engineering - Manual Review Required"
 }
 ]
