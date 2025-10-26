@@ -32,19 +32,24 @@
     "escalate_to": "Space Mission - Thermal Control"
   },
   {
-    "event_id": "EVT-803",
-    "satellite_id": "GOES-19",
-    "subsystem": "COMMS",
-    "metric": "signal_strength",
-    "value": -95.8,
-    "unit": "dBm",
-    "status": "WARNING",
-    "severity": "Medium",
-    "confidence": 0.96,
-    "timestamp": "2025-10-24T20:02:00Z",
-    "raw": { "sensor": "COM03", "read_source": "telemetry_batch_6303" },
-    "change_recommended": false,
-    "change_reason": "Signal slightly degraded but above -100 dBm threshold — no change required.",
-    "escalate_to": null
-  }
+  "event_id": "EVT-904",
+  "satellite_id": "GOES-19",
+  "subsystem": "THERMAL",
+  "metric": "subsystem_temperature",
+  "value": 59.2,
+  "unit": "C",
+  "status": "CRITICAL",
+  "severity": "High",
+  "confidence": 0.94,
+  "timestamp": "2025-10-26T19:42:00Z",
+  "raw": { "sensor": "THR02", "read_source": "telemetry_batch_7345",
+    "eclipse_phase": "Ingress"
+  },
+  "change_recommended": false,
+  "change_reason": "Thermal subsystem temperature exceeded 58°C during eclipse transition — policy OPS-THR-042 §4.2 requires manual review before automated action.",
+  "escalate_to": "Thermal Systems Engineering - Manual Review Required",
+  "service_request_recommended": true,
+  "service_request_reason": "Thermal breach within eclipse transition window — create SR for Thermal Review per OPS-THR-042 §4.2.",
+ }
+}
 ]
