@@ -1,32 +1,41 @@
 [
   {
-    "event_id": "EVT-802",
+    "event_id": "EVT-717",
+    "satellite_id": "GOES-17",
+    "subsystem": "POWER",
+    "metric": "bus_voltage",
+    "value": 24.6,
+    "unit": "V",
+    "status": "NOMINAL",
+    "severity": "Low",
+    "confidence": 0.99,
+    "timestamp": "2025-10-28T11:05:00Z",
+    "raw": { "sensor": "PWR03", "read_source": "telemetry_batch_7401" }
+  },
+  {
+    "event_id": "EVT-818",
     "satellite_id": "GOES-18",
     "subsystem": "THERMAL",
     "metric": "payload_temp",
-    "value": 69.2,
-    "unit": "°C",
+    "value": 66.1,
+    "unit": "C",
     "status": "CRITICAL",
     "severity": "High",
-    "confidence": 0.97,
-    "timestamp": "2025-10-24T20:01:00Z",
-    "raw": { "sensor": "THR05", "read_source": "telemetry_batch_6302" } , "change_recommended": true, "change_reason": "Payload temperature exceeded 65 °C for more than 10 minutes — recommend cooling system configuration change.",
-    "escalate_to": "Space Mission - Thermal Control"
+    "confidence": 0.95,
+    "timestamp": "2025-10-28T11:06:00Z",
+    "raw": { "sensor": "THR01", "read_source": "telemetry_batch_7401" }
   },
-{
-  "event_id": "EVT-904",
-  "satellite_id": "GOES-19",
-  "subsystem": "THERMAL",
-  "metric": "subsystem_temperature",
-  "value": 59.2,
-  "unit": "C",
-  "status": "CRITICAL",
-  "severity": "High",
-  "confidence": 0.94,
-  "timestamp": "2025-10-26T19:42:00Z",
-  "raw": { "sensor": "THR02", "read_source": "telemetry_batch_7345" },
-  "change_recommended": false,
-  "change_reason": "Thermal subsystem temperature exceeded 58°C during eclipse transition — manual review required per OPS-THR-042 §4.2.",
-  "escalate_to": "Thermal Systems Engineering - Manual Review Required"
-}
+  {
+    "event_id": "EVT-919",
+    "satellite_id": "GOES-19",
+    "subsystem": "THERMAL",
+    "metric": "subsystem_temperature",
+    "value": 59.2,
+    "unit": "C",
+    "status": "CRITICAL",
+    "severity": "High",
+    "confidence": 0.92,
+    "timestamp": "2025-10-28T11:07:00Z",
+    "raw": { "sensor": "THR02", "read_source": "telemetry_batch_7401" }
+  }
 ]
