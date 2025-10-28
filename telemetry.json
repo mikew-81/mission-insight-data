@@ -1,18 +1,5 @@
 [
-  {
-    "event_id": "EVT-717",
-    "satellite_id": "GOES-17",
-    "subsystem": "POWER",
-    "metric": "bus_voltage",
-    "value": 24.6,
-    "unit": "V",
-    "status": "NOMINAL",
-    "severity": "Low",
-    "confidence": 0.99,
-    "timestamp": "2025-10-28T11:05:00Z",
-    "raw": { "sensor": "PWR03", "read_source": "telemetry_batch_7401" }
-  },
-  {
+ {
     "event_id": "EVT-818",
     "satellite_id": "GOES-18",
     "subsystem": "THERMAL",
