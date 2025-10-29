@@ -1,28 +1,41 @@
 [
- {
+  {
+    "event_id": "EVT-917",
+    "satellite_id": "GOES-17",
+    "subsystem": "THERMAL",
+    "metric": "radiator_temp",
+    "value": 46.0,
+    "unit": "C",
+    "status": "WARNING",
+    "severity": "Medium",
+    "confidence": 0.88,
+    "timestamp": "2025-10-28T14:05:00Z",
+    "raw": { "sensor": "THR04", "read_source": "telemetry_batch_7521" }
+  },
+  {
     "event_id": "EVT-818",
     "satellite_id": "GOES-18",
-    "subsystem": "THERMAL",
-    "metric": "payload_temp",
-    "value": 66.1,
-    "unit": "C",
+    "subsystem": "POWER",
+    "metric": "bus_voltage",
+    "value": 22.7,
+    "unit": "V",
     "status": "CRITICAL",
     "severity": "High",
-    "confidence": 0.95,
-    "timestamp": "2025-10-28T11:06:00Z",
-    "raw": { "sensor": "THR01", "read_source": "telemetry_batch_7401" }
+    "confidence": 0.96,
+    "timestamp": "2025-10-28T14:06:00Z",
+    "raw": { "sensor": "PWR02", "read_source": "telemetry_batch_7521" }
   },
   {
     "event_id": "EVT-919",
     "satellite_id": "GOES-19",
     "subsystem": "THERMAL",
     "metric": "subsystem_temperature",
-    "value": 59.2,
+    "value": 60.1,
     "unit": "C",
     "status": "CRITICAL",
     "severity": "High",
-    "confidence": 0.92,
-    "timestamp": "2025-10-28T11:07:00Z",
-    "raw": { "sensor": "THR02", "read_source": "telemetry_batch_7401" }
+    "confidence": 0.91,
+    "timestamp": "2025-10-28T14:07:00Z",
+    "raw": { "sensor": "THR01", "read_source": "telemetry_batch_7521" }
   }
 ]
