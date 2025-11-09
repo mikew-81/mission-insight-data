@@ -30,7 +30,7 @@
     "satellite_id": "GOES-19",
     "subsystem": "THERMAL",
     "metric": "subsystem_temperature",
-    "value": 60.1,
+    "value": 66.1,
     "unit": "C",
     "status": "CRITICAL",
     "severity": "High",
